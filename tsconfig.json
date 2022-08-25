@@ -4,6 +4,7 @@
 		"declaration": true,
 		"outDir": "dist",
 		"sourceMap": true,
+		"esModuleInterop": true,
 		"paths": {
 			"*": ["node_modules/*"]
 		}

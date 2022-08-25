@@ -19,7 +19,8 @@
  *
  */
 
-import fetch from "node-fetch";
+import fetchPonyfill from 'fetch-ponyfill';
+const { fetch } = fetchPonyfill();
 
 type OpenThesaurusTerm = {
 	term: string;
