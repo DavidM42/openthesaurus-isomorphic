@@ -1,5 +1,5 @@
-# openthesaurus 📚
-Node wrapper around the API of **[OpenThesaurus](https://www.openthesaurus.de/)**.
+# openthesaurus-isomorphic 📚
+Isomorphic (client & server) wrapper around the API of **[OpenThesaurus](https://www.openthesaurus.de/)**.
 
 ## Installation
 Using `npm`:

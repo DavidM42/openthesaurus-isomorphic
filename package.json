@@ -1,10 +1,11 @@
 {
-	"name": "openthesaurus",
+	"name": "openthesaurus-isomorphic",
 	"version": "1.0.2",
 	"description": "📚 Wrapper around the OpenThesaurus API.",
 	"keywords": [
 		"openthesaurus",
 		"openthesaurus api",
+		"isomorphic",
 		"dictionary api",
 		"synonyms",
 		"synonyme"
