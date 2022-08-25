@@ -66,24 +66,24 @@ export async function get(
 ): Promise<OpenThesaurusResponse> {
 	const baseUrl: string =
 		options != null &&
-		options != undefined &&
-		options.baseUrl != null &&
-		options.baseUrl.length >= 1
+			options != undefined &&
+			options.baseUrl != null &&
+			options.baseUrl.length >= 1
 			? options.baseUrl
 			: "https://www.openthesaurus.de/synonyme/search";
 	const returnSimilar: boolean =
 		options != null &&
-		options != undefined &&
-		options.similar != null &&
-		options.similar != true
+			options != undefined &&
+			options.similar != null &&
+			options.similar != true
 			? false
 			: true;
 
 	const returnBaseforms: boolean =
 		options != null &&
-		options != undefined &&
-		options.baseform != null &&
-		options.baseform != true
+			options != undefined &&
+			options.baseform != null &&
+			options.baseform != true
 			? false
 			: true;
 	const response: Response = await fetch(
@@ -108,14 +108,14 @@ export async function get(
 		synsets: synsets,
 		similarTerms:
 			responseJson.similarterms != null &&
-			responseJson.similarterms != undefined &&
-			responseJson.similarterms.length >= 1
+				responseJson.similarterms != undefined &&
+				responseJson.similarterms.length >= 1
 				? responseJson.similarterms
 				: [],
 		baseforms:
 			responseJson.baseforms != null &&
-			responseJson.baseforms != undefined &&
-			responseJson.baseforms.length >= 1
+				responseJson.baseforms != undefined &&
+				responseJson.baseforms.length >= 1
 				? responseJson.baseforms
 				: [],
 	};
